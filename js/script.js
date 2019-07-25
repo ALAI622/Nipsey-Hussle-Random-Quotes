@@ -109,8 +109,9 @@ function printQuote() {
   
   
   
-  //let ranPic = '<body>' + randomQuote.image + '</body>';
-  //document.body.style.background = ranPic;
+  let ranPic = randomQuote.image;
+console.log(ranPic);
+document.body.style.background = 'url(' + ranPic + ')';
   
  
 
@@ -119,7 +120,7 @@ function printQuote() {
 
 
 
-
+/*
 //timer for quote to switch after 10 seconds
 setInterval(printQuote, 5000);  
 
@@ -169,7 +170,7 @@ function backgroundSequence() {
 }
 backgroundSequence();
 
-
+*/
 
 
 
